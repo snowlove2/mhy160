@@ -1,0 +1,18 @@
+# Local dependencies and temporary files
+node_modules/
+*.log
+*.tmp
+*.bak
+.DS_Store
+Thumbs.db
+
+# Local authentication and application data
+.env
+.env.*
+!.env.example
+cookie*.txt
+cookie*.json
+cookies/
+browser_data/
+veneranext.json
+.codex_work/
