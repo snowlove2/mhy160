@@ -2,7 +2,7 @@
 
 `mhy160.js` 是给 **VeneraNext 漫画阅读器**使用的 JavaScript 漫画源插件。它把「漫画160」网站的搜索结果、漫画详情、章节目录和图片地址转换成阅读器能够识别的数据，让用户在应用内搜索和阅读该站点的漫画。
 
-仓库地址：<https://github.com/snowlove2/mhy160>。当前是私有仓库，建议登录 GitHub 后下载脚本，再通过阅读器的文件入口导入。
+仓库地址：<https://github.com/snowlove2/mhy160>。本仓库公开，无需登录 GitHub 即可下载脚本；也可以使用下面的原始链接直接导入阅读器。
 
 脚本入口是 `class MH160 extends ComicSource`。文件名是 `mhy160.js`，应用内名称是「漫画160」，内部标识是 `mh160`；这三个名称各有用途。
 
@@ -52,7 +52,7 @@
 
 ### 通过原始链接导入
 
-公开仓库可以使用 GitHub 的 **Raw 原始文件地址**导入。地址格式为：
+可以使用以下 GitHub **Raw 原始文件地址**导入：
 
 ```text
 https://raw.githubusercontent.com/snowlove2/mhy160/main/mhy160.js
@@ -60,7 +60,7 @@ https://raw.githubusercontent.com/snowlove2/mhy160/main/mhy160.js
 
 以上地址对应本仓库的 `main` 分支。`github.com/.../blob/...` 是文件展示页，会返回 HTML，应从文件页面的 Raw 入口取得脚本下载地址。
 
-如果仓库是私有的，请登录 GitHub 后下载 JS，再通过文件导入。阅读器不会自动继承浏览器里的 GitHub 登录状态，普通 Raw 链接可能无法读取私有文件。不要把 GitHub 令牌写进脚本或下载链接。
+此链接无需 GitHub 登录或令牌。使用阅读器的单脚本链接入口，粘贴上面的完整地址，再按应用流程识别并安装。
 
 ### 通过源列表导入
 
@@ -70,7 +70,7 @@ https://raw.githubusercontent.com/snowlove2/mhy160/main/mhy160.js
 https://raw.githubusercontent.com/snowlove2/mhy160/main/index.json
 ```
 
-如果当前应用只提供文件或单脚本链接入口，直接导入 `mhy160.js` 即可。私有仓库同样存在登录限制。
+源列表链接同样无需 GitHub 登录。如果当前应用只提供文件或单脚本链接入口，直接导入 `mhy160.js` 即可。
 
 ## 图片域名怎么设置
 
